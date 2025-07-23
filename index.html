@@ -2,108 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prince Milon | Musical Artist in Bangladesh</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prince Milon - Music Portfolio</title>
+  <link rel="stylesheet" href="style1.css" />
 </head>
-<body class="bg-white text-gray-800 font-sans">
-
-  <!-- Header -->
-  <header class="bg-black text-white p-4 sticky top-0 z-50 shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold">Prince Milon</h1>
-      <nav class="space-x-4">
-        <a href="#home" class="hover:text-yellow-400">Home</a>
-        <a href="#about" class="hover:text-yellow-400">About</a>
-        <a href="#portfolio" class="hover:text-yellow-400">Gallery</a>
-        <a href="#music" class="hover:text-yellow-400">Music</a>
-        <a href="#contact" class="hover:text-yellow-400">Contact</a>
-      </nav>
-    </div>
+<body>
+  <header class="navbar">
+    <div class="logo">Prince Milon</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bio">Biography</a></li>
+        <li><a href="#discography">Discography</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Hero Section -->
-  
-  <section id="home" class="h-screen bg-gray-100 flex items-center justify-center text-center px-4">
-  
-    <div>
-      <h2 class="text-4xl md:text-5xl font-bold mb-4">Prince Milon</h2>
-      <p class="text-lg mb-6">Musical Artist in Bangladesh</p>
-      <a href="#music" class="bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600">Learn about me</a>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Prince Milon</h1>
+      <p>Bangladeshi Singer & Musician</p>
+      <a href="https://youtu.be/4vSgZ_CrylQ" class="btn-pink">Watch Video</a>
     </div>
   </section>
 
-  <!-- About Me -->
-  <section id="about" class="py-16 bg-white px-6">
-    <div class="max-w-3xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-4">About Me</h3>
-      <p>Milon Hossain, known professionally by his stage name Prince Milon (Born: December 05, 2002), is a Bangladeshi singer and musician. Google verified artist, Spotify verified artist, YouTube verified artist, Apple Music official artist, and Amazon Music official artist.</p>
-      <p class="mt-4"> </p>
+  <section  class="bio">
+    <h2 class="bio">Biography</h2>
+    <p>Milon Hossain, known professionally by his stage name Prince Milon (Born: December 05, 2002), is a Bangladeshi singer and musician. Google verified artist, Spotify verified artist, YouTube verified artist, Apple Music official artist, and Amazon Music official artist.</p>
+  </section>
+
+  <section id="discography" class="discography bio">
+    <h2>Music</h2>
+    <ul class="asset">
+      <li>
+        <strong>Amar Moner Khacha</strong><br>
+        <a href="https://open.spotify.com/album/2u5wYytbwiM8N3PWYD0YyT?si=jD4ffuj2ToCoMtp_vqREBg">Spotify</a> | 
+        <a href="https://youtu.be/H7q-_Qlqgrs">YouTube</a>
+      </li>
+      <li>
+        <strong>Ovishap</strong><br>
+        <a href="https://open.spotify.com/track/0Rv9mo6o0St2WfNcVJwk9A?si=902e77e59c584941">Spotify</a> | 
+        <a href="https://youtu.be/Cyck-8VkW1w">YouTube</a>
+      </li>
+      <li>
+        <strong>Tor Namete Lekha Diary</strong><br>
+        <a href="https://open.spotify.com/track/26yhacXXb75An6yPvyN15C?si=700364d9ffe541c8">Spotify</a> | 
+        <a href="https://youtu.be/Ml83ECuSZi8">YouTube</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="videos" class="videos">
+    <h2>Videos</h2>
+    <div class="main_content">
+	<div class="content_1">
+	<iframe style="border-radius:0px"width="560" height="315" src="https://www.youtube.com/embed/mfcZdvvNODQ?si=plmVhaT-tnFyaE1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe style="border-radius:30px" width="560" height="315" src="https://www.youtube.com/embed/mfcZdvvNODQ?si=plmVhaT-tnFyaE1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+<div class="content_2"> <iframe style="border-radius:30px" width="560" height="315" src="https://www.youtube.com/embed/mfcZdvvNODQ?si=plmVhaT-tnFyaE1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe style="border-radius:30px" width="560" height="315" src="https://www.youtube.com/embed/mfcZdvvNODQ?si=plmVhaT-tnFyaE1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
     </div>
   </section>
 
-  <!-- Gallery / Portfolio -->
-  <section id="portfolio" class="py-16 bg-gray-50 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center mb-10">Gallery</h3>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-white rounded shadow hover:shadow-lg overflow-hidden">
-          <img src="03.jpg" alt="Stage Performance" class="w-full h-64 object-cover">
-        </div>
-        <div class="bg-white rounded shadow hover:shadow-lg overflow-hidden">
-          <img src="02.jpg" alt="Cover Photo" class="w-full h-64 object-cover">
-        </div>
-        <div class="bg-white rounded shadow hover:shadow-lg overflow-hidden">
-          <img src="01.jpg" alt="Behind the Scenes" class="w-full h-64 object-cover">
-        </div>
-      </div>
-    </div>
+  <section id="contact" class="contact">
+    <h2>Contact / Book Me</h2>
+    <p>Email: <a href="mailto:princemilon.bd@gmail.com">princemilon.bd@gmail.com</a></p>
+    <p>Social Media:</p>
+    <ul>
+      <li><a href="https://open.spotify.com/artist/1GgroUTntATs9XKlIMPMOt">Spotify</a></li>
+      <li><a href="https://www.facebook.com/musiclover.milon">Facebook</a></li>
+      <li><a href="https://www.youtube.com/@PrinceMilon">YouTube</a></li>
+      <li><a href="https://www.instagram.com/bd.princemilon/">Instagram</a></li>
+    </ul>
   </section>
 
-  <!-- Music / Projects -->
-  <section id="music" class="py-16 bg-white px-6">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center mb-10">My Latest Song</h3>
-      <div class="space-y-6">
-        <div class="bg-gray-100 p-4 rounded">
-          <h4 class="text-xl font-semibold">Ovishap</h4>
-          <p>Release Date: Jan 1, 2024</p>
-          <p><a href="#" class="text-blue-600 underline">Spotify</a> | <a href="#" class="text-blue-600 underline">YouTube</a></p>
-        </div>
-        <div class="bg-gray-100 p-4 rounded">
-          <h4 class="text-xl font-semibold">Tor Namete Lekha Diary</h4>
-          <p>Release Date: Feb 10, 2024</p>
-          <p><a href="#" class="text-blue-600 underline">Spotify</a> | <a href="#" class="text-blue-600 underline">YouTube</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 px-6 bg-gray-50">
-    <div class="max-w-xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
-      <p class="mb-4"><strong>princemilon.bd@gmail.com</strong></p>
-      <form class="space-y-4">
-        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded" />
-        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded" />
-        <textarea placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded h-32"></textarea>
-        <button class="bg-yellow-500 text-black px-6 py-3 rounded hover:bg-yellow-600">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-black text-white text-center py-6">
+  <footer>
     <p>&copy; 2025 Prince Milon. All rights reserved.</p>
-    <p class="mt-2">
-      <a href="#" class="text-yellow-400 underline mx-2">Facebook</a>
-      <a href="#" class="text-yellow-400 underline mx-2">Instagram</a>
-      <a href="#" class="text-yellow-400 underline mx-2">YouTube</a>
-      <a href="#" class="text-yellow-400 underline mx-2">Spotify</a>
-      <a href="#" class="text-yellow-400 underline mx-2">TikTok</a>
-    </p>
   </footer>
-
 </body>
 </html>
